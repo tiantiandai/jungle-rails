@@ -8,6 +8,8 @@
     <h4>Thank you for your order!</h4>
   </div>
 
+
+
   <% @order.line_items.each do |item| %>
     <%= render 'order',item: item %>
   <% end %>

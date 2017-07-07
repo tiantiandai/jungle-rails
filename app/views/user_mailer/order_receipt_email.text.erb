@@ -1,0 +1,12 @@
+
+Receipt for <%= @order.id %>
+===============================================
+ 
+You have successfully placed an order,
+your order ID is: <%= @order.id %>.
+Thank you for your order!
+
+
+The total is: <%= number_to_currency(@order.total_cents/100) %>as well as each line item in the order.
+ 
+Thanks for joining and have a great day!
